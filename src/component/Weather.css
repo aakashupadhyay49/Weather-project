@@ -1,0 +1,91 @@
+.header-searchBar{
+    margin-left: 30%;
+    position: relative;
+}
+  
+.header-searchBar {
+    display: flex;
+    flex: 2;
+  }
+  
+  .search-icon {
+      border: none;
+      width: 20px;
+    font-size: 25px;
+    color: grey;
+    margin: 0px 57%;
+    position: absolute;
+    cursor: pointer;
+  }
+  /* .location-icon {
+    margin: 0px 7px;
+    font-size: 25px;
+    color: red;
+    position: absolute;
+  } */
+
+  .location-icon-name {
+    display: flex;
+    position: absolute;
+    margin: 0px 7px;
+  }
+  .location-icon {
+  
+    font-size: 25px;
+    color: red;
+  }
+  
+  .search-input {
+    border: 1px solid black;
+    width: 60%;
+    padding: 7px;
+    font-size: 14px;
+    outline: none;
+    text-align: center;
+    border-radius: 0 7px 0 7px;
+  }
+  .search-input::placeholder{
+      text-align: center;
+  }
+
+
+  .current-weather{
+      display: inline-block;
+      width: 350px;
+      border: 1px solid red;
+      height: 300px;
+      margin-right: 5px;
+      vertical-align: middle;
+      background-color: aqua;
+      /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+  }
+  .weather-data{
+      text-align: center;
+     
+  }
+    .weathercity{
+      font-size: 30px;
+      
+  }
+  .weathertemp{
+      font-size: 35px;
+  }
+
+  .week-data{
+    width: 1000px;
+    height: 320px;
+    border: 1px solid green;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: auto;
+    margin-top: 100px;
+    overflow-y: hidden;
+   
+  }
+
+ 
+.chartdata{
+  width: 800px;
+  height: 800px;
+}
+
