@@ -1,0 +1,280 @@
+.header-searchBar{
+    /* border: 1px solid red; */
+    margin-left: 0;
+    width: 100%;
+    height: 90px;
+    position: relative;
+   
+    
+}
+
+.search-input{
+    margin: auto;
+    padding:17px;
+    width: 700px;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow:rgba(50,50,93,0.25)0px 50px 100px -20px , rgba(0,0,0,0.3) 0px 30px 60px -30px, rgba(10,37,64,0.35) 0px -2px 6px 0px inset;
+    
+    border:none;
+}
+input::placeholder{
+    color: black;
+    
+}
+
+.location-icon-name{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 30px;
+    
+}
+.location-icon{
+    color:black;
+    font-size: 24px;
+    font-weight: 10000;
+}
+.search-icon{
+    color: black;
+   margin-top: 30px;
+    /* border: 1px solid red; */
+    font-size: 24px;
+    margin-left: 990px;
+    font-weight: 2000;
+}
+
+
+.weekdata{
+    width:740px;
+    height:160px;
+    /* border: 1px solid red; */
+    margin: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.weatherdata{
+    width: 100px;
+    height: 96%;
+    display: inline-block;
+    cursor: pointer;
+    gap: 5px;
+    /* border: 1px solid black; */
+    /* border: #3C7D91 5px double; */
+    
+}
+.active{
+    border:3.5px solid rgb(102, 200, 239);
+    background-color: rgb(255, 249, 247);
+}
+.inactive{
+    border:none;
+   
+}
+
+h1{
+    color:black
+}
+
+img{
+    width: 60px;
+    height: 50px;
+    margin-left: 25px;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+h5{
+    text-align: center;
+}
+
+
+.chartdata{
+    width: 100px;
+    height: 800px;
+  }
+
+  .chartdiv{
+    width:740px;
+    height:900px;
+    /* border:1px solid red; */
+    box-shadow:rgba(50,50,93,0.25)0px 50px 100px -20px , rgba(0,0,0,0.3) 0px 30px 60px -30px, rgba(10,37,64,0.35) 0px -2px 6px 0px inset;
+    margin:auto;
+    margin-top: 19px;
+  }
+  .charttemp{
+    margin-top: 30px;
+  }
+  .charttemp>h1{
+    font-weight: bolder;
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .charttemp>img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+  }
+  .linechart{
+    width:85%;
+    margin:auto;
+    margin-top: 40px;
+}
+.sundatabox{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.sun{
+    font-size: 17px;
+    color: rgb(46, 48, 51);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.sunrise{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sunset{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.humidity-pressure{
+    display: flex;
+    justify-content: space-between;   
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.pressure{
+    width: 350px;
+    height: 70px;
+    /* border: 1px solid green; */
+    margin-left: 15px;
+    background-color: rgb(229, 243, 247);
+    border-radius: 5px;
+}
+.humidity{
+    width: 350px;
+    height: 70px;
+    /* border: 1px solid green; */
+    margin-right: 15px;
+    background-color: rgb(229, 243, 247);
+    border-radius: 5px;
+  
+}
+.press{
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(46, 48, 51);
+    margin-left: 13px;
+  
+}
+.humm{
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(46, 48, 51);
+    margin-left: 13px;
+}
+.pressdata{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.hummdata{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+
+
+
+.loader{
+    margin-left: 570px;
+    margin-top:380px
+}
+
+@media screen and (max-width:700px) {
+    .header-searchBar{
+        width: 620px;
+    }
+    .location-icon-name{
+         margin-left: 20px;
+    }
+    .search-icon{
+        margin-left: 590px;
+    }
+    .weekdata{
+        width:620px;
+    }
+    .pressure{
+        width:250px;
+        margin-left: 15px;
+    }
+    .humidity{
+        width: 250px;
+        margin-right: 105px;
+    }
+    .sunset{
+        margin-right: 105px;
+    }
+    .linechart{
+        width: 77%;
+        margin-right: 110px;
+    }
+ }
+ 
+
+ @media screen and (max-width:900px) {
+    .header-searchBar{
+        width:720px;
+        margin: auto;
+    }
+    
+    .location-icon-name{
+         margin-left: 10px;
+    }
+    .search-icon{
+        margin-left: 690px;
+    }
+    .weekdata{
+        width:720px;
+    }
+    .pressure{
+        width:250px;
+        margin-left: 15px;
+    }
+    .humidity{
+        width: 250px;
+        margin-right: 5px;
+    }
+    .sunset{
+        margin-right: 5px;
+    }
+    .linechart{
+        width: 80%;
+        margin-right: 90px;
+    }
+    .chartdiv{
+        width: 720px;
+    }
+ }
+ 

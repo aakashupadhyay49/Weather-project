@@ -58,16 +58,7 @@ const Weather = () => {
     })
     }
 
-  // for(let i in hourly){
-  //     if(i<12){
-  //         newarr.push(hourly[i])
-  //     }else{
-  //       break
-  //     }
-  // }
-
-    
-
+  
     const handlechange=(e)=>{
           setSearch(e.target.value)
     }
@@ -84,18 +75,7 @@ const handleSearch=()=>{
     },[])
     
 
-    var newarr=[
-    //   Math.floor(data.list[0].main.temp-273.15),
-    // Math.floor(data.list[1].main.temp-273.15),
-    //       Math.floor(data.list[2].main.temp-273.15),
-    //       Math.floor(data.list[3].main.temp-273.15),
-    //       Math.floor(data.list[4].main.temp-273.15),
-    //       Math.floor(data.list[5].main.temp-273.15),
-    //       Math.floor(data.list[6].main.temp-273.15),
-          // Math.floor(data.list[7].main.temp-273.15)
-  
-  ]
-    // console.log(newarr)
+    
     const [chartdata,setchartData]=useState({
       labels:[1,2,3,4,5,6,7],
       datasets:[
